@@ -1,0 +1,31 @@
+{
+  "name": "lms-api",
+  "version": "1.0.0",
+  "description": "API para sistema de gestão de escola utilizando NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estevam02009/lms-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/estevam02009/lms-api/issues"
+  },
+  "homepage": "https://github.com/estevam02009/lms-api#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "lms-api": "file:",
+    "mongoose": "^8.10.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9"
+  }
+}
