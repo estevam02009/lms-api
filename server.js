@@ -1,4 +1,6 @@
 const http = require('http');
+require('dotenv').config();
+require('./config/dbConnect');
 const app = require('./app/app');
 
 
